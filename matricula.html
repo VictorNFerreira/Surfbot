@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/estilo.css">
+        <title>Matricule-se | Surfbot</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <a class="logo" href="/index.html"><img src="/img/surfbot.svg" alt="Surfbot"></a>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="/index.html#praias">Praias</a></li>
+                    <li><a href="/index.html#aulas">Aulas</a></li>
+                    <li><a href="/index.html#contato">Contato</a></li>
+                    <li><a href="/matricula.html">Matricule-se</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="matricula">
+            <div class="matricula-titulo">
+                <h1>Matricule-se</h1>
+            </div>
+            
+            <form class="matricula-formulario">
+                <div class="formulario-dados">
+                    <div class="formulario-informacoes">
+                        <div class="formulario-nome">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+
+                        <div class="formulario-email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="formulario-cpf">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" name="cpf" placeholder="111.111.111-01">
+                        </div>
+
+                        <div>
+                            <label for="endereco">Endereço</label>
+                            <input type="text" id="endereco" name="endereco" placeholder="Rua, Número, Bairro"> 
+                        </div>
+                        
+                        <div>
+                            <label for="estado">Estado</label>
+                            <select id="estado" name="estado">
+                                <option value="">Selecione o Estado</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="es">Espírito Santo</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="cep">CEP</label>
+                            <input type="text" id="cep" name="cep" placeholder="22.222-000"> 
+                        </div>
+                        
+                        <div>
+                            <label for="cidade">Cidade</label>
+                            <select id="cidade" name="cidade">
+                                <option value="">Selecione a Cidade</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="nf">Nova Friburgo</option>
+                                <option value="jau">Jaú</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h2>Forma de Pagamento</h2>
+
+                    <div class="formulario-pagamento">
+                        <div class="pagamento-opcoes">
+                            <div>
+                                <input type="radio" id="cartao" name="tipo" value="cartao">
+                                <label for="cartao">Cartão de Crédito</label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio" id="boleto" name="tipo" value="boleto">
+                                <label for="boleto">Boleto Bancário</label>
+                            </div>
+                        </div>
+
+                        <div class="pagamento-dados">
+                            <div>
+                                <label for="nome-cartao">Nome no Cartão</label>
+                                <input type="text" id="nome-cartao" name="nome-cartao" placeholder="Nome impresso no cartão">
+                            </div>
+
+                            <div>
+                                <label>Data de Expiração</label>
+                                <div class="formulario-expiracao">
+                                    <select name="mes">
+                                        <option value="">Mês</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <select name="ano">
+                                        <option value="">Ano</option>
+                                        <option value="25">2025</option>
+                                        <option value="26">2026</option>
+                                        <option value="27">2027</option>
+                                        <option value="28">2028</option>
+                                        <option value="29">2029</option>
+                                        <option value="30">2030</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="numero-cartao">Número do Cartão</label>
+                                <input type="text" id="numero-cartao" name="numero-cartao" placeholder="5555 5555 5555 5555">
+                            </div>
+
+                            <div>
+                                <label for="codigo-cartao">Código de Segurança</label>
+                                <input type="text" id="codigo-cartao" name="codigo-cartao" placeholder="XXX">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formulario-produto">
+                    <h2>Escolha o Plano</h2>
+                    
+                    <div class="produto-opcoes">
+                        <input type="radio" id="infantil" name="produto" value="infantil">
+                        <label for="infantil">Infantil</label>
+
+                        <input type="radio" id="adulto" name="produto" value="infantil">
+                        <label for="adulto">Adulto</label>
+
+                        <input type="radio" id="profissional" name="produto" value="infantil">
+                        <label for="profissional">Profissional</label>
+
+                        <div class="produto-infantil">
+                            <h3>INFANTIL</h3>
+
+                            <ul class="produto-vantagens">
+                                <li>Público entre 5 e 15 anos</li>
+                                <li>Equipamentos fornecidos</li>
+                                <li>Horários de Sex. à Sáb.</li>
+                                <li>2 horas seguidas de aula</li>
+                            </ul>
+
+                            <p class="produto-preco">R$ 49,00 / Aula</p>
+                        </div>
+
+                        <div class="produto-adulto">
+                            <h3>ADULTO</h3>
+
+                            <ul class="produto-vantagens">
+                                <li>Público entre 16 e 80 anos</li>
+                                <li>Equipamentos fornecidos</li>
+                                <li>Horários de Sex. à Sáb.</li>
+                                <li>3 horas seguidas de aula</li>
+                            </ul>
+
+                            <p class="produto-preco">R$ 69,00 / Aula</p>
+                        </div>
+
+                        <div class="produto-profissional">
+                            <h3>PROFISSIONAL</h3>
+
+                            <ul class="produto-vantagens">
+                                <li>Experiência de 3 anos no surf</li>
+                                <li>Você deve trazer o equipamento</li>
+                                <li>Horários de Sex. à Sáb.</li>
+                                <li>4 horas seguidas de aula</li>
+                            </ul>
+
+                            <p class="produto-preco">R$ 99,00 / Aula</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formulario-final">
+                    <p>Seu cartão será debitado em R$ 49,00</p>
+                    <button class="botao">REALIZAR MATRÍCULA</button>
+                    <p class="seguranca">Informações seguras e criptografadas</p>
+                </div>
+            </form>
+        </main>
+
+        <footer class="rodape">
+            <p>Surfnet 2017 - Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>

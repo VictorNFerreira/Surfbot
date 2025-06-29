@@ -1,0 +1,65 @@
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1, h2, h3, p, ul
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 span
+{
+    color: #1188ee;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+ul
+{
+    list-style: none;
+
+}
+
+img
+{
+    display: block;
+    max-width: 100%;
+
+}
+
+.logo
+{
+    display: inline-block;
+    width: max-content;
+
+}
+
+.botao
+{
+    max-width: fit-content;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.125rem;
+    color: #ffffff;
+    background: #445566;
+    border-radius: 5px;
+
+}
+
+.botao:hover
+{
+    cursor: pointer;
+
+}

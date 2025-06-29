@@ -1,0 +1,649 @@
+.superinfo
+{
+    max-width: 1170px;
+    padding: 10px 45px;
+    margin: 0px auto;
+    background: #1188ee;
+
+}
+
+.superinfo p
+{
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.cabecalho
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    max-width: 1170px;
+    padding: 10px 45px;
+    margin: 0px auto;
+    gap: 30px;
+    align-items: center;
+    background: #17222d;
+}
+
+.menu ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 15px;
+    
+}
+
+.menu li
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.menu li + li::before
+{
+    content:"";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: solid 2px #ffffff;
+    border-radius: 4px;
+    
+}
+
+.menu li:last-child
+{
+    text-decoration: underline #ee2211;
+
+}
+
+.intro
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1170px;
+    height: 400px;
+    padding: 10px 45px;
+    margin: 0px auto;
+    gap: 30px;
+    align-items: end;
+    background-image: url("/img/seth-doyle-151914.jpg");
+    
+
+}
+
+.intro h1
+{
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+    color: #ffffff;
+
+}
+
+.intro-formulario
+{
+    display: flex;
+    width: 470px;
+    margin-bottom: 58px;
+    justify-self: right;
+    box-shadow: 0px 5px 5px rgba(23, 34, 45, 0.40);
+
+}
+
+.intro-formulario input
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    font-size: 1.125rem;
+    background: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.intro-formulario input:focus
+{
+    outline: none;
+
+}
+
+.intro-formulario input::placeholder
+{
+    color: #99aabb;
+
+}
+
+.intro-formulario button
+{
+    padding: 14px 24px;
+    border: none;
+    font-size: 1.125rem;
+    color: #ffffff;
+    background: #ee2211;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.intro-formulario button:hover
+{
+    cursor: pointer;
+
+}
+
+.praias
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1170px;
+    padding: 60px 45px;
+    margin: 0px auto;
+    gap: 30px;
+    background: #ffffff;
+
+}
+
+.praias-imagens
+{
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+
+}
+
+.praias-imagens img
+{
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.30), 0px 10px 10px rgba(187, 204, 221, 0.30);
+
+}
+
+.praias-local h2
+{
+    display: flex;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #17222d;
+
+}
+
+.praias-local h2::before
+{
+    content:"";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: solid 2px #ff3726;
+    border-radius: 4px;
+
+}
+
+.praias-caminhos li
+{
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #17222d;
+
+}
+
+.praias-caminhos li + li
+{
+    margin-top: 15px;
+
+}
+
+.praias-caminhos li span
+{
+    color: #99aabb;
+
+}
+
+.praias-caminhos li span:hover
+{
+    color: #17222d;
+
+}
+
+.praias-caminhos li::before
+{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #1188ee;
+
+}
+
+.praias-texto
+{
+    justify-self: right;
+
+}
+
+.praias-texto h1
+{
+    max-width: 450px;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+    line-height: 90%;
+    color: #17222d;
+    position: relative;
+
+}
+
+.praias-texto h1::after
+{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #eff4f9;
+    position: absolute;
+    bottom: -60px;
+    left: 0px;
+
+}
+
+.praias-vantagens li
+{
+    display: flex;
+    padding: 40px 0px;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5rem;
+    color: #445566;
+    position: relative;
+
+}
+
+.praias-vantagens li::after
+{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #eff4f9;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.praias-vantagens img
+{
+    max-width: 64px;
+
+}
+
+.praias-texto p
+{
+    max-width: 450px;
+    margin-top: 30px;
+    font-size: 1.125rem;
+    color: #445566;
+
+}
+
+.aulas
+{
+    display: grid;
+    justify-content: center;
+    max-width: 1170px;
+    padding: 60px 45px;
+    margin: 0px auto;
+    background: #eff4f9;
+
+}
+
+.aulas h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+    color: #445566;
+
+}
+
+.aulas-planos
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0px 30px 0px;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.aulas-opcao
+{
+    display: grid;
+    padding: 40px 60px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.40), 0px 10px 10px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.aulas-opcao h2
+{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.aulas-vantagens
+{
+    width: 230px;
+    padding: 30px 0px;
+    border-top: 2px solid #eff4f9;
+    border-bottom: 2px solid #eff4f9;
+
+}
+
+.aulas-vantagens li
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.875rem;
+    color: #445566;
+
+}
+
+.aulas-vantagens li + li
+{
+    margin-top: 25px;
+
+}
+
+.aulas-vantagens li::before
+{
+    content:"";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: solid 2px #ff3726;
+    border-radius: 4px;
+
+}
+
+.aulas-preco
+{
+    margin: 15px 0px 30px 0px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #1188ee;
+
+}
+
+.aulas-desconto
+{
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 120%;
+    color: #445566;
+
+}
+
+.aulas-desconto span
+{
+    font-weight: bold;
+    color: #ff3726;
+
+}
+
+.citacao
+{
+    display: grid;
+    max-width: 1170px;
+    height: 480px;
+    padding: 0px 45px;
+    margin: 0px auto;
+    align-content: center;
+    background-image: url(/img/adam-krowitz-386792.jpg);
+
+}
+
+.citacao h2
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+    line-height: 90%;
+    color: #ffffff;
+
+}
+
+.citacao p
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.125rem;
+    color: #ffffff;
+
+}
+
+.contato
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1170px;
+    padding: 60px 45px;
+    margin: 0px auto;
+    gap: 30px;
+
+}
+
+.contato h1
+{
+    grid-column: 1/-1;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+    color: #445566;
+
+}
+
+
+.contato-formulario
+{
+    position: relative;
+
+}
+
+.contato-formulario::after
+{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #eff4f9;
+    position: absolute;
+    bottom: 0px;
+    right: -15px;
+
+}
+
+.contato-formulario div
+{
+    margin-bottom: 15px;
+
+}
+
+.contato-formulario label
+{
+    display: block;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.contato-formulario input
+{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    font-size: 1.125rem;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.contato-formulario textarea
+{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    margin: 0px 0px 20px 0px;
+    font-size: 1.125rem;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.contato-formulario input:focus, .contato-formulario textarea:focus
+{
+    outline: none;
+
+}
+
+.contato-dados
+{
+    padding-left: 80px;
+
+}
+
+.contato-dados div + div
+{
+    padding-top: 30px;
+
+}
+
+.contato-dados h2
+{
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.contato-dados p
+{
+    font-size: 0.875rem;
+    color: #445566;
+
+}
+
+.contato-dados p + p
+{
+    margin-top: 5px;
+
+}
+
+.contato-dados a
+{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #445566;
+
+}
+
+.dados-telefone
+{
+    position: relative;
+
+}
+
+.dados-telefone::before
+{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 2px;
+    background: #eff4f9;
+    position: absolute;
+    top: 15px;
+
+}
+
+.dados-telefone::after
+{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 2px;
+    background: #eff4f9;
+    position: absolute;
+    bottom: -15px;
+
+}
+
+.dados-horario
+{
+    position: relative;
+
+}
+
+.dados-horario h2::before
+{
+    content:"";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: solid 2px #16c70b;
+    border-radius: 4px;
+    position: absolute;
+    top: 36px;
+    left: -12px;
+
+}
+
+.rodape
+{
+    max-width: 1170px;
+    padding: 50px 45px;
+    margin: 0px auto;
+    background: #1188ee;
+
+}
+
+.rodape p
+{
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}

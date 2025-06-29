@@ -1,0 +1,430 @@
+.matricula-titulo
+{
+    max-width: 1170px;
+    padding: 20px 45px;
+    margin: 0px auto;
+    background: #eff4f9;
+
+}
+
+.matricula h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+    color: #445566;
+
+}
+
+.matricula-formulario
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1170px;
+    padding: 20px 45px;
+    margin: 0px auto;
+    gap: 30px;
+
+}
+
+.formulario-informacoes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 30px;
+
+}
+
+.formulario-informacoes div
+{
+    margin-bottom: 15px;
+
+}
+
+.formulario-nome, .formulario-email, .formulario-cpf
+{
+    grid-column: 1/-1;
+
+}
+
+.formulario-informacoes label
+{
+    display: block;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.formulario-informacoes input
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    font-size: 1.125rem;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.formulario-informacoes input:focus
+{
+    outline: none;
+
+}
+
+.formulario-informacoes input::placeholder
+{
+    color: #99aabb;
+
+}
+
+.formulario-informacoes select
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    font-size: 1.125rem;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.formulario-informacoes select:hover
+{
+    cursor: pointer;
+
+}
+
+.formulario-dados h2
+{
+    grid-column: 1/-1;
+    margin: 15px 0px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #1188ee;
+
+}
+
+.formulario-pagamento
+{
+    padding: 30px 0px 15px 0px;
+    border-top: 2px solid #eff4f9;
+    border-bottom: 2px solid #eff4f9;
+
+}
+
+.pagamento-opcoes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    margin-bottom: 15px;
+    gap: 30px;
+
+}
+
+.pagamento-opcoes input
+{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.pagamento-opcoes label
+{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.125rem;
+    color: #445566;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.pagamento-opcoes label::before
+{
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #1188ee;
+    background: #ffffff;
+    border-radius: 50%;
+
+}
+
+.pagamento-opcoes input:checked + label::before
+{
+    box-shadow: inset 0px 0px 0px 5px #1188ee;
+
+}
+
+.pagamento-opcoes label:hover
+{
+    cursor: pointer;
+
+}
+
+.pagamento-dados
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 30px;
+
+}
+
+.pagamento-dados > div
+{
+    margin-bottom: 15px;
+
+}
+
+
+.pagamento-dados label
+{
+    display: block;
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.pagamento-dados input
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    font-size: 1.125rem;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.pagamento-dados input:focus
+{
+    outline: none;
+
+}
+
+.pagamento-dados input::placeholder
+{
+    color: #99aabb;
+
+}
+
+.pagamento-dados select
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    font-size: 1.125rem;
+    background: #eff4f9;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.pagamento-dados select:hover
+{
+    cursor: pointer;
+
+}
+
+.formulario-expiracao
+{
+    display: flex;
+    gap: 30px;
+
+}
+
+.formulario-produto
+{
+    max-width: 430px;
+    padding: 30px;
+    justify-self: right;
+    align-self: start;
+    background: #eff4f9;
+    border-radius: 5px;
+
+}
+
+.formulario-produto h2
+{
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.produto-opcoes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 10px;
+
+}
+
+.produto-opcoes input
+{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.produto-opcoes label
+{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.125rem;
+    color: #445566;
+    background: #ffffff;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.produto-opcoes label::before
+{
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #1188ee;
+    background: #ffffff;
+    border-radius: 50%;
+
+}
+
+.produto-opcoes input:checked + label::before
+{
+    box-shadow: inset 0px 0px 0px 5px #1188ee;
+
+}
+
+.produto-opcoes label:hover
+{
+    cursor: pointer;
+
+}
+
+.produto-opcoes div
+{
+    display: none;
+
+}
+
+#infantil:checked ~ .produto-infantil, #adulto:checked ~ .produto-adulto, #profissional:checked ~ .produto-profissional
+{
+    display: grid;
+    grid-column: 1/-1;
+    padding: 40px 60px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.40), 0px 10px 10px rgba(187, 204, 221, 0.40);
+    border-radius: 5px;
+
+}
+
+.produto-opcoes h3
+{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #445566;
+
+}
+
+.produto-vantagens
+{
+    width: 310px;
+    padding: 30px 0px;
+    border-top: 2px solid #eff4f9;
+    border-bottom: 2px solid #eff4f9;
+
+}
+
+.produto-vantagens li
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.875rem;
+    color: #445566;
+
+}
+
+.produto-vantagens li + li
+{
+    margin-top: 25px;
+
+}
+
+.produto-vantagens li::before
+{
+    content:"";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: solid 2px #ff3726;
+    border-radius: 4px;
+
+}
+
+.produto-preco
+{
+    margin-top: 15px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #1188ee;
+
+}
+
+.formulario-final p
+{
+    margin-bottom: 15px;
+    font-size: 1.125rem;
+    color: #445566;
+
+}
+
+.formulario-final .botao
+{
+    padding: 15px 30px;
+    background: #1188ee;
+
+}
+
+.formulario-final .seguranca
+{
+    margin-top: 15px;
+    font-size: 0.875rem;
+    color: #445566;
+
+}
