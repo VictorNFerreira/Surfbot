@@ -74,7 +74,7 @@
     margin: 0px auto;
     gap: 30px;
     align-items: end;
-    background-image: url("/img/seth-doyle-151914.jpg");
+    background-image: url("../img/seth-doyle-151914.jpg");
     
 
 }
@@ -421,7 +421,7 @@
     padding: 0px 45px;
     margin: 0px auto;
     align-content: center;
-    background-image: url(/img/adam-krowitz-386792.jpg);
+    background-image: url("../img/adam-krowitz-386792.jpg");
 
 }
 
